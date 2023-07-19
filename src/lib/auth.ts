@@ -8,7 +8,7 @@ import decode from 'jwt-decode'
 interface User {
   sub: string
   name: string
-  avatarUrl: String                 
+  avatarUrl: string                 
 }
 
 export function getUser(): User{
